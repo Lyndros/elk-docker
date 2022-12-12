@@ -15,7 +15,7 @@ services:
       ES_JAVA_OPTS: "-Xms512m -Xmx512m"
       discovery.type: single-node
     volumes:
-      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch1.yml
       - ./elasticsearch/data:/usr/share/elasticsearch/data
     ulimits:
       # We do not want to provide any limit
