@@ -1,3 +1,5 @@
+# Skip Visual Studio files
 .vs/
 
+# Skip elastic persistent data
 elasticsearch/data/
